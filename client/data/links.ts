@@ -4,8 +4,8 @@
 export const links = {
   // WhatsApp Configuration
   whatsapp: {
-    number: "628xxxxxxxxxx", // Replace with your WhatsApp number (format: country code + number without +)
-    message: "Halo kak, aku mau booking tarot reading ✨", // Default booking message
+    number: "628213161049", // Replace with your WhatsApp number (format: country code + number without +)
+    message: "Halo kak, aku mau booking tarot reading", // Default booking message
   },
 
   // Payment Methods
@@ -19,7 +19,7 @@ export const links = {
 
   // Social Media Links
   social: {
-    instagram: "https://instagram.com/", // Replace with your Instagram link
+    instagram: "https://www.instagram.com/saachan._/", // Replace with your Instagram link
     tiktok: "https://tiktok.com/@", // Replace with your TikTok link
     twitter: "https://x.com/", // Replace with your X/Twitter link
     youtube: "https://youtube.com/@", // Replace with your YouTube channel

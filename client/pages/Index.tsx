@@ -36,7 +36,7 @@ export default function Index() {
             {/* Logo */}
             <div className="flex-shrink-0">
               <h1 className="text-xl md:text-2xl font-heading font-bold text-accent">
-                🌙 Tarot Reader
+                🌙 Saachan Tarot
               </h1>
             </div>
 
@@ -190,40 +190,46 @@ export default function Index() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <ServiceCard
-              title="Quick Insight"
-              duration="15 minutes"
+              title="Quick Question"
+              duration="1 question only"
               price="$25"
-              description="A focused tarot reading to gain quick clarity on a specific question or situation. Perfect for when you need guidance in the moment."
+              description="A short tarot reading focused on one clear question.
+                          Perfect when you need quick clarity, reassurance, or insight in the moment."
             />
             <ServiceCard
               title="Love & Relationship"
-              duration="30 minutes"
+              duration="1–2 questions"
               price="$50"
-              description="Deep insights into matters of the heart. Whether seeking clarity on a current relationship or guidance on love, this reading explores all romantic dimensions."
+              description="An intuitive reading to explore love energy and emotional connections.
+                          Ideal for understanding feelings, situations, and possible next steps in love."
             />
             <ServiceCard
-              title="Career & Finance"
-              duration="30 minutes"
+              title="Career & Life Direction"
+              duration="1–2 questions"
               price="$50"
-              description="Navigate career transitions and financial decisions with confidence. Gain insight into professional opportunities and abundance in your life."
+              description="A tarot reading focused on career, work, study, or life direction.
+                          Helps you reflect on choices and gain clarity on your next steps."
             />
             <ServiceCard
               title="General Guidance"
-              duration="45 minutes"
+              duration="Open reading"
               price="$75"
-              description="A comprehensive reading covering all areas of your life: work, relationships, health, and personal growth. An ideal choice for transformation."
+              description="A gentle overview reading covering your current energy, challenges, and guidance.
+                          Suitable if you’re unsure what to ask but seeking direction."
             />
             <ServiceCard
-              title="Past Life Reading"
-              duration="45 minutes"
+              title="Emotional Healing"
+              duration="Gentle & supportive reading"
               price="$75"
-              description="Explore connections and patterns from past incarnations that influence your current life. Unlock deeper understanding of your soul's journey."
+              description="A supportive reading to help you understand emotional blocks and inner healing.
+                            Focused on self-awareness, release, and gentle guidance."
             />
             <ServiceCard
-              title="Full Year Forecast"
-              duration="60 minutes"
+              title="Monthly Energy"
+              duration="Monthly overview"
               price="$100"
-              description="Get a comprehensive outlook for the year ahead. Monthly breakdown of energies, opportunities, and challenges to help you prepare and manifest."
+              description="A monthly tarot reading to explore upcoming themes and energies.
+                          Helpful for intention-setting and emotional preparatio"
             />
           </div>
         </div>
@@ -298,12 +304,12 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {[
               {
-                name: "Sarah M.",
+                name: "Cemi",
                 rating: 5,
                 text: "The reading was incredibly insightful and helped me see my relationship from a new perspective. Highly recommended!",
               },
               {
-                name: "James K.",
+                name: "Rei.",
                 rating: 5,
                 text: "I was skeptical at first, but the accuracy and depth of the guidance was truly remarkable. Life-changing session.",
               },
@@ -362,14 +368,29 @@ export default function Index() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Photo Placeholder */}
-            <div className="flex justify-center">
-              <div className="relative w-64 h-64">
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full blur-xl opacity-30" />
-                <div className="relative w-full h-full rounded-full bg-gradient-to-br from-card to-purple-900/20 border-2 border-accent/40 flex items-center justify-center text-6xl">
-                  🌙
-                </div>
-              </div>
-            </div>
+{/* Photo */}
+<div className="flex justify-center">
+  <div className="relative">
+    {/* Outer glow */}
+    <div className="absolute inset-0 -z-20 blur-3xl opacity-40 bg-purple-600/50 rounded-full" />
+    {/* Inner glow */}
+    <div className="absolute inset-10 -z-10 blur-2xl opacity-30 bg-fuchsia-400/40 rounded-full" />
+
+   <img
+  src="/chibi-saachan.png"
+  alt="Saachan Tarot Chibi"
+  className="
+    w-72 
+    md:w-80 
+    lg:w-96
+    h-auto 
+    object-contain 
+    animate-float
+  "
+  draggable="false"
+/>
+  </div>
+</div>
 
             {/* About Text */}
             <div>
@@ -377,25 +398,27 @@ export default function Index() {
                 Welcome to Your Journey
               </h3>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                I'm a dedicated tarot reader with a passion for helping others
-                discover clarity and direction in their lives. With years of
-                experience in the mystical arts, I offer warm, intuitive readings
-                that honor your unique journey and spiritual path.
+               Hi, I’m Sania, also known as Saachan, a tarot reader based in Bali.
+               At 20 years old (turning 21 this year ✨), I began my journey with tarot as a way to understand myself,
+                emotions, and life’s transitions — and along the way, I discovered how deeply tarot can help others too.
+                I offer gentle, intuitive tarot readings focused on clarity, reflection, and emotional insight. My approach is  
+                calm, honest, and supportive — creating a safe space for you to explore your thoughts, feelings, and current
+                situations without judgment.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                My approach blends traditional tarot wisdom with contemporary
-                insight, creating a safe, nurturing space for exploration and
-                growth. Whether you're seeking answers about love, career,
-                personal development, or spiritual direction, I'm here to help
-                you unlock the wisdom within.
+                Rather than predicting fixed outcomes, I believe tarot works best as a tool for 
+                self-awareness and guidance.Whether you’re seeking clarity about love, life direction, emotions, 
+                or personal growth, my readings are meant to help you reconnect with your inner voice and move forward with
+                confidence.Every reading is approached with care, respect, and intention — because your journey is unique, 
+                  and you deserve guidance that feels personal and grounding.
               </p>
 
               <div className="bg-accent/10 border border-accent/30 rounded-xl p-6">
                 <p className="text-sm text-muted-foreground italic">
-                  ✨ <span className="font-medium">Disclaimer:</span> Tarot reading is for
-                  guidance and reflection only. It is not a substitute for
-                  professional medical, legal, or financial advice. Always
-                  consult qualified professionals for serious matters.
+                  ✨ <span className="font-medium">Disclaimer:</span> Tarot readings are
+                  offered as intuitive guidance and reflection. They are not a substitute for
+                  professional financial, legal, or medical advice. Please use your own judgment
+                  and consult qualified professionals for important financial decisions.✨
                 </p>
               </div>
             </div>
@@ -537,11 +560,11 @@ export default function Index() {
       <footer className="border-t border-accent/20 bg-gradient-to-b from-transparent to-card/30 py-12 px-4 md:px-6 lg:px-8 text-center text-sm text-muted-foreground">
         <div className="max-w-6xl mx-auto">
           <p className="mb-4">
-            © 2024 Tarot Reader. All rights reserved. Created with ✨ and intuition.
+            © 2026 Saachan Tarot. All rights reserved. Created with ✨ and intuition.
           </p>
           <p className="text-xs">
-            Tarot readings are for guidance and reflection only and are not a
-            substitute for professional advice.
+            Tarot readings are for guidance and self-reflection only.
+            They are not a substitute for professional medical, legal, or financial advice.
           </p>
         </div>
       </footer>

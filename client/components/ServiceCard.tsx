@@ -37,7 +37,7 @@ export const ServiceCard = ({
             <span className="text-accent">⏱</span> {duration}
           </span>
           <span className="flex items-center gap-1">
-            <span className="text-accent">💎</span> {price}
+            <span className="text-accent"> 💰</span> {price}
           </span>
         </div>
 
