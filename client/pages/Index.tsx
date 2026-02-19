@@ -192,42 +192,42 @@ export default function Index() {
             <ServiceCard
               title="Quick Question"
               duration="1 question only"
-              price="$25"
+              price="Rp5k"
               description="A short tarot reading focused on one clear question.
                           Perfect when you need quick clarity, reassurance, or insight in the moment."
             />
             <ServiceCard
               title="Love & Relationship"
               duration="1–2 questions"
-              price="$50"
+              price="Rp10k"
               description="An intuitive reading to explore love energy and emotional connections.
                           Ideal for understanding feelings, situations, and possible next steps in love."
             />
             <ServiceCard
               title="Career & Life Direction"
               duration="1–2 questions"
-              price="$50"
+              price="Rp10k"
               description="A tarot reading focused on career, work, study, or life direction.
                           Helps you reflect on choices and gain clarity on your next steps."
             />
             <ServiceCard
               title="General Guidance"
               duration="Open reading"
-              price="$75"
+              price="Rp10k"
               description="A gentle overview reading covering your current energy, challenges, and guidance.
                           Suitable if you’re unsure what to ask but seeking direction."
             />
             <ServiceCard
               title="Emotional Healing"
               duration="Gentle & supportive reading"
-              price="$75"
+              price="Rp5k"
               description="A supportive reading to help you understand emotional blocks and inner healing.
                             Focused on self-awareness, release, and gentle guidance."
             />
             <ServiceCard
               title="Monthly Energy"
               duration="Monthly overview"
-              price="$100"
+              price="Rp15k"
               description="A monthly tarot reading to explore upcoming themes and energies.
                           Helpful for intention-setting and emotional preparatio"
             />
