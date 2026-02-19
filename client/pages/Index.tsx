@@ -304,34 +304,34 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {[
               {
-                name: "Cemi",
+                name: "A",
                 rating: 5,
-                text: "The reading was incredibly insightful and helped me see my relationship from a new perspective. Highly recommended!",
+                text: "Awalnya cuma iseng, tapi hasilnya kok relate banget ya 😭 dia beneran jelasin kenapa si dia ngilang. Jujur kaget sih seakurat itu.",
               },
               {
-                name: "Rei.",
+                name: "N",
                 rating: 5,
-                text: "I was skeptical at first, but the accuracy and depth of the guidance was truly remarkable. Life-changing session.",
+                text: "Gue lagi overthinking parah soal relationship, dan readingnya bikin gue jauh lebih tenang. Banyak yang kena banget.",
               },
               {
-                name: "Emma R.",
+                name: "R",
                 rating: 5,
-                text: "Such a calming and warm energy. The tarot reader's intuition about my career situation was spot-on. Thank you!",
+                text: "Gue skeptis awalnya. Tapi after the session… ok I’m convinced. Banyak detail yang gak gue ceritain tapi kebaca",
               },
               {
-                name: "Michael T.",
+                name: "Y",
                 rating: 5,
-                text: "Professional, thoughtful, and deeply meaningful. I feel more aligned with my purpose after this reading.",
+                text: "Reading soal kerjaan gue ternyata masuk banget. Jadi lebih yakin ambil keputusan yang kemarin gue raguin.",
               },
               {
-                name: "Lisa P.",
+                name: "S",
                 rating: 5,
-                text: "The reading helped me gain clarity on my next steps. I appreciate the compassion and wisdom shared.",
+                text: "Sesi voice-nya enak banget, gak ngeburu-buru. Rasanya kayak lagi ngobrol sama temen tapi dapet insight",
               },
               {
-                name: "David L.",
+                name: "L",
                 rating: 5,
-                text: "Exceptional experience from start to finish. The guidance resonated deeply with where I am in life.",
+                text: "Dia literally bilang ‘dia belum siap komit’ dan ternyata 2 minggu kemudian dia ngomong gitu 😭.",
               },
             ].map((testimonial, index) => (
               <Card
