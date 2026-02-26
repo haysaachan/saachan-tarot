@@ -10,7 +10,7 @@ export const links = {
   // Payment Methods
   payment: {
     qris: {
-      image: "https://via.placeholder.com/300x300/4a148c/d4af37?text=QRIS+Code", 
+      image: "/qris_tarot.jpeg", 
       text: "Scan QRIS untuk pembayaran",
     },
     saweria: "https://saweria.co/YOUR_USERNAME",
