@@ -13,7 +13,7 @@ export const links = {
       image: "/qris_tarot.jpeg", 
       text: "Scan QRIS untuk pembayaran",
     },
-    saweria: "https://saweria.co/YOUR_USERNAME",
+  
   },
 
 

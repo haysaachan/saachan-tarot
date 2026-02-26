@@ -462,23 +462,7 @@ export default function Index() {
               </Button>
             </Card>
 
-            {/* Saweria Payment */}
-            <Card className="bg-card/40 backdrop-blur-sm border-accent/30 p-6 md:p-8 flex flex-col items-center text-center hover:border-accent/60 transition-colors">
-              <div className="w-40 h-40 bg-gradient-to-br from-purple-600/20 to-purple-600/5 rounded-lg mb-6 flex items-center justify-center border border-accent/30">
-                <div className="text-6xl">💸</div>
-              </div>
-              <h3 className="text-xl font-heading font-bold text-foreground mb-2">
-                Saweria Payment
-              </h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                Support via Saweria platform
-              </p>
-              <a href={links.payment.saweria} target="_blank" rel="noopener noreferrer">
-                <Button className="bg-gradient-to-r from-purple-600 to-purple-800 hover:from-purple-700 hover:to-purple-900 text-white border-0">
-                  Pay via Saweria
-                </Button>
-              </a>
-            </Card>
+           
           </div>
 
           {/* Payment Note */}
