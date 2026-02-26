@@ -7,7 +7,6 @@ export const links = {
     message: "Halo kak, aku mau booking tarot reading", 
   },
 
-  // Payment Methods
   payment: {
     qris: {
       image: "/qris_tarot.jpeg", 
